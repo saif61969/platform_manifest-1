@@ -33,6 +33,10 @@
   
   <remote  name="github"
            fetch="git://github.com/Android-Butter/" />
+           
+  <remote  name="github2"
+           fetch="git://github.com/elelinux/"
+           review="review.elelinux.com" />
   
   <remote  name="gh"
 	   fetch="https://github.com/" />
@@ -66,10 +70,8 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="rootbox" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/htc/msm8660-common" name="butter_device_htc_msm8660-common" remote="github" revision="jellybean"/>
-  <project path="device/htc/pyramid" name="butter_device_htc_pyramid" remote="github" revision="jellybean" />
-  <project path="device/samsung/i9100" name="device_samsung_i9100" remote="rootbox" revision="jb-mr1" />
-  <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="rootbox" revision="jb-mr1" />
+  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="github2" revision="jb-mr1" />
+  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github2" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -285,8 +287,7 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="rootbox" revision="jb-mr1" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="kernel/samsung/msm8660-common" name="android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.1" />	
-  <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="saif" revision="cm-10.1" />
+  <project path="kernel/htc/msm8660" name="pyramid_kernel_aosp" remote="github2" revision="cm-10.1" />
   <project path="libcore" name="UnicornButter/libcore" remote="gh" revision="jb-mr1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -405,8 +406,9 @@
   <project path="hardware/qcom/media-legacy" name="butter_hardware_qcom_media-legacy" remote="github" revision="jellybean"/>
 
   <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb-mr1" />
-  <project path="vendor/htc" name="butter_vendor_htc" remote="github" revision="jellybean" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="rootbox" revision="jb-mr1" />
+  <project path="vendor/htc/pyramid" name="android_vendor_htc_pyramid" remote="github2" revision="cm-10.1" />
+  <project path="vendor/qcom" name="vendor_qcom" remote="github2" revision="jb-mr1" />
+  
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
