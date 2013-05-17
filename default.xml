@@ -34,9 +34,7 @@
   <remote  name="github"
            fetch="git://github.com/Android-Butter/" />
            
-  <remote  name="github2"
-           fetch="git://github.com/elelinux/"
-           review="review.elelinux.com" />
+  
   
   <remote  name="gh"
 	   fetch="https://github.com/" />
