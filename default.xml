@@ -70,8 +70,8 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="rootbox" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="github2" revision="jb-mr1" />
-  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github2" revision="jb-mr1" />
+  <project path="device/htc/msm8660-common" name="butter_device_htc_msm8660-common" remote="github" revision="jellybean"/>
+  <project path="device/htc/pyramid" name="butter_device_htc_pyramid" remote="github" revision="jellybean" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -264,30 +264,25 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="UnicornButter/frameworks_wilhelm" remote="gh" revision="jb-mr1" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.1" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cr" revision="jb2" />
-  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="rootbox" revision="jb-mr1" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.1" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="rootbox" revision="jb-mr1" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="kernel/htc/msm8660" name="pyramid_kernel_aosp" remote="github2" revision="cm-10.1" />
+  <project path="hardware/broadcom/wlan" name="butter_hardware_broadcom_wlan" remote="github" revision="jellybean"/>
+  <project path="hardware/libhardware" name="butter_hardware_libhardware" remote="github" revision="jellybean"/>
+  <project path="hardware/libhardware_legacy" name="butter_hardware_libhardware_legacy" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/bt" name="butter_hardware_qcom_bt" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/camera" name="butter_hardware_qcom_camera" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/keymaster" name="butter_hardware_qcom_keymaster" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/power" name="butter_hardware_qcom_power" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/sensors" name="butter_hardware_qcom_sensors" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/wlan" name="butter_hardware_qcom_wlan" remote="github" revision="jellybean"/>
+  <project path="hardware/ril" name="butter_hardware_ril" remote="github" revision="jellybean"/>
+  <project path="hardware/ti/wlan" name="butter_hardware_ti_wlan" remote="github" revision="jellybean"/>
+  <project path="hardware/atheros" name="butter_hardware_atheros" remote="github" revision="jellybean" />
+  <project path="hardware/gpsshim" name="butter_hardware_gpsshim" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/audio-legacy" name="butter_hardware_qcom_audio-legacy" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/display-legacy" name="butter_hardware_qcom_display-legacy" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/gps-legacy" name="butter_hardware_qcom_gps-legacy" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/media" name="butter_hardware_qcom_media" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/media-legacy" name="butter_hardware_qcom_media-legacy" remote="github" revision="jellybean"/>
+  <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="github" revesion="cm-10.1"
   <project path="libcore" name="UnicornButter/libcore" remote="gh" revision="jb-mr1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -396,18 +391,9 @@
   <project path="system/vold" name="system_vold" remote="aokp" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
-  
-  <project path="hardware/atheros" name="butter_hardware_atheros" remote="github" revision="jellybean" />
-  <project path="hardware/gpsshim" name="butter_hardware_gpsshim" remote="github" revision="jellybean" />
-  <project path="hardware/qcom/audio-legacy" name="butter_hardware_qcom_audio-legacy" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/display-legacy" name="butter_hardware_qcom_display-legacy" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/gps-legacy" name="butter_hardware_qcom_gps-legacy" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/media" name="butter_hardware_qcom_media" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/media-legacy" name="butter_hardware_qcom_media-legacy" remote="github" revision="jellybean"/>
 
   <project path="vendor/rootbox" name="vendor_rootbox" remote="saif" revision="jb-mr1" />
-  <project path="vendor/htc/pyramid" name="android_vendor_htc_pyramid" remote="github2" revision="cm-10.1" />
-  <project path="vendor/qcom" name="vendor_qcom" remote="github2" revision="jb-mr1" />
+  <project path="vendor/htc" name="butter_vendor_htc" remote="github" revision="jellybean" />
   
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
