@@ -405,7 +405,7 @@
   <project path="hardware/qcom/media" name="butter_hardware_qcom_media" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/media-legacy" name="butter_hardware_qcom_media-legacy" remote="github" revision="jellybean"/>
 
-  <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb-mr1" />
+  <project path="vendor/rootbox" name="vendor_rootbox" remote="saif" revision="jb-mr1" />
   <project path="vendor/htc/pyramid" name="android_vendor_htc_pyramid" remote="github2" revision="cm-10.1" />
   <project path="vendor/qcom" name="vendor_qcom" remote="github2" revision="jb-mr1" />
   
